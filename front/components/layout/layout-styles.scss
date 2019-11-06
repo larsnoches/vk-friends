@@ -1,0 +1,31 @@
+$blueColor: lighten(blue, 20%);
+$darkBlueColor: darken(blue, 10%);
+$grayColor: lighten(gray, 20%);
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 15px;
+    min-height: 100px;
+    width: 50%;
+    border-radius: 3px;
+    border: 1px solid $grayColor;
+}
+
+.button {
+    background-color: $blueColor;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid $darkBlueColor;
+
+    &:hover {
+        background-color: $darkBlueColor;
+    }
+}

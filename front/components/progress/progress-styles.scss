@@ -1,0 +1,15 @@
+@import 'components/layout/layout-styles.scss';
+
+.progress-card {
+    @extend .card;
+    @extend .container;
+    margin-top: 25px;
+
+    .progress-card-title {
+        padding: 10px;
+    }
+
+    .progress-card-body {
+        padding: 20px;
+    }
+}

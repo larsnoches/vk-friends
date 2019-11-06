@@ -1,0 +1,37 @@
+@import 'components/layout/layout-styles.scss';
+
+.friends-error-card {
+    @extend .card;
+    @extend .container;
+
+    .friends-error-card-title {
+        padding: 10px;
+    }
+}
+
+.friends-list {
+    @extend .container;
+    width: 100%;
+
+    .friends-list-title {
+        padding: 15px;
+        font-weight: bold;
+    }
+
+    .friends-list-card {
+        @extend .container;
+        @extend .card;
+        flex-direction: row;
+        justify-content: start;
+        margin-bottom: 10px;
+        padding: 0;
+    
+        .friends-list-card-image {
+            padding: 10px 5px 10px 15px;
+        }
+    
+        .friends-list-card-name {
+            padding: 10px 15px 10px 10px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import 'components/layout/layout-styles.scss';
+
+.entrance-card {
+    @extend .card;
+    @extend .container;
+    margin-top: 25px;
+
+    .entrance-card-title {
+        padding: 10px;
+    }
+
+    .entrance-card-body {
+        padding: 20px;
+    }
+}
