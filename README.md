@@ -1,6 +1,6 @@
 # VK friends app
 
-Frontend: JS, React
+Frontend: JS, React  
 Backend: Python Django
 
 Debug:
